@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f1e1e8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  html, body {
+    height: 100%;
+}
+  .maincontainer h1{
+    color:#450707;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  form label {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: #141613;
+  }
+  
+  form input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin:auto;
+    border-radius: 20px;
+    border:2px solid #8f94fb;
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  form button {
+    background-color: #fff;
+    color: #8f94fb;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  form button:hover{
+    border:2px solid #8f94fb;
+  }
+  
+  #short-url-container {
+    margin-top: 20px;
+  }
+  #short-url-container p{
+    text-align: center;
+    color: #fff;
+  }
+  
+  #short-url {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #short-url a {
+    word-wrap: break-word;
+    margin-right: 15px;
+    color: #081663;
+  }
+
+  .maincontainer
+  {
+    width:80%;
+    height: auto;
+    min-height:350px;
+    padding:40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+    background: #d977e3;
+    background: -webkit-linear-gradient(to right, #8f94fb, #d977e3);  
+    background: linear-gradient(to right, #8f94fb, #d977e3);
+    margin: auto;
+  }
+
+  #copy-btn{
+    background-color: #f4dde0;
+    color: #8f94fb;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .credit a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
